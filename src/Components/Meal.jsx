@@ -38,9 +38,6 @@ const Meal = () => {
             show ? <MealItem data={item}/> : "Not found"
            }
         </div>
-        {/* <div className="IndexContainer">
-            <RecipeIndex alphaIndex= {(alpha)=>setIndex(alpha)}/>
-        </div> */}
     </div>
     </>
   )
