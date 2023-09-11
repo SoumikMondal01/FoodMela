@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import MealItem from './MealItem'
-import RecipeIndex from './RecipeIndex'
 
 const Meal = () => {
     const [url, setUrl] = useState("https://www.themealdb.com/api/json/v1/1/filter.php?a=Indian");
